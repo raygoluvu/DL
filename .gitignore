@@ -163,3 +163,5 @@ cython_debug/
 Assignment2/A2_data_FashionMNIST_2023/
 Assignment2/data/*
 *.zip
+*A3_data*
+*.pt
