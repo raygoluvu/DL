@@ -165,3 +165,5 @@ Assignment2/data/*
 *.zip
 *A3_data*
 *.pt
+*.pth
+*.csv
