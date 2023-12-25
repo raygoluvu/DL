@@ -25,6 +25,10 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+data
+sentencepiece/
+OpenPrompt/
+.vscode/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -77,6 +81,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*checkpoints/
 
 # IPython
 profile_default/
@@ -161,9 +166,17 @@ cython_debug/
 
 # Datasets
 Assignment2/A2_data_FashionMNIST_2023/
-Assignment2/data/*
+*data/
 *.zip
 *A3_data*
 *.pt
 *.pth
 *.csv
+*.jpeg
+*.jpg
+*.png
+*train/
+*test/
+*val/
+*.deb
+*.DS_Store
